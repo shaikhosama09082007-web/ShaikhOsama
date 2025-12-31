@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parent{
+    background-image:url(bgimage2.jpg);
+    height: 100vh;
+    background-position: center top;
+    background-size: 130%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.5);
+    height: 110vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.header{
+    padding: 25px 0 0 180px;
+    position: relative;
+}
+.header img{
+    width: 150px;
+}
+.login-container{
+    background-color: rgba(0,0,0,0.75);
+    width: 480px;
+    margin: auto;
+    padding: 68px;
+    border-radius: 6px;
+    position: relative;
+}
+.login-container h1{
+    font-size: 32px;
+    color: #fff;
+}
+.form{
+    margin-top:20px;
+}
+.form .input-field{
+    width: 100%;
+    padding: 16px;
+    border-radius: 6px;
+    margin: 10px 0;
+    background-color: rgba(50,50,50,0.328);
+    border:1px solid #ffffff95;
+}
+.form .SignIn-button{
+    width: 100%;
+    padding: 12px;
+    background-color: #e50914;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.login-container .or{
+    color: #ffffffb3;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+}
+.signIn-code button{
+    width: 100%;
+    padding: 12px;
+    color: #fff;
+    font-size: 16px;
+    background-color: rgba(125,125,125,0.456);
+    border:none;
+    border-radius: 6px;
+}
+.fp-link{
+    color: #fff;
+    text-align: center;
+    /* text-decoration: none; */
+    margin: 10px;
+}
+.fp-link a{
+    color: #fff;
+    /* text-decoration: none; */
+}
+.checkbox label{
+    color: #fff;
+    margin-left: 5px;
+}
+.signup-link{
+    margin: 20px 0;
+}
+.signup-link span{
+    color: #ffffffb3;
+}
+.signup-link a{
+    color: #fff;
+    text-decoration: none;
+}
+.captcha{
+    color:#ffffff80;
+}
+.learnmore a{
+   /* margin-top: 15px; */
+   line-height: 15px;
+}
